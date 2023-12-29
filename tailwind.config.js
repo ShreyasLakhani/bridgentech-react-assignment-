@@ -4,11 +4,13 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {
-      boxShadow: {
-        'lb': '-10px 10px 15px #B0C4DE',
-      }
+    screens:{
+      'xs':'400px',
+      'md': '768px',
+      'lg': '1024px',
+
     },
+    extend: {},
   },
   plugins: [],
 }
